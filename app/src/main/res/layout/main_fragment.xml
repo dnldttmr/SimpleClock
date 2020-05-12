@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="K" />
+
+        <LinearLayout
+            android:id="@+id/itTextContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="L" />
+
+        <LinearLayout
+            android:id="@+id/isTextContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="T" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="A" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="R" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/minuteFiveContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="U" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/minuteTenContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="K" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="F" />
+
+        <LinearLayout
+            android:id="@+id/minuteQuarterContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="V" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="R" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="T" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="L" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="O" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="Z" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="R" />
+
+        <LinearLayout
+            android:id="@+id/minuteTwentyContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="W" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="A" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="G" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="H" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="F" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="P" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="H" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="I" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="H" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="K" />
+
+        <LinearLayout
+            android:id="@+id/minutePreContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="V" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="O" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="R" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="G" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="A" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/minutePastContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="A" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="C" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+        <LinearLayout
+            android:id="@+id/minuteHalfContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="A" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="L" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="B" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="Q" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hourOneContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="P" />
+
+        <LinearLayout
+            android:id="@+id/hourTwoContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="W" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="T" />
+
+        <LinearLayout
+            android:id="@+id/hourThreeContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="D" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="R" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="T" />
+
+        <LinearLayout
+            android:id="@+id/hourFourContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="V" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="R" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hourFiveContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="U" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hourSixContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="C" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="W" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+        <LinearLayout
+            android:id="@+id/hourSevenContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="S" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="I" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="B" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="H" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="T" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/hourEightContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="A" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="C" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="T" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hourNineContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="U" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="V" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="J" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="K" />
+
+        <LinearLayout
+            android:id="@+id/hourElevenContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="L" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="V" />
+
+        <LinearLayout
+            android:id="@+id/hourTenContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="H" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="N" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="G" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="D" />
+
+        <LinearLayout
+            android:id="@+id/hourTwelveContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="@dimen/alphaEnabled"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="Z" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="W" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="O" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="E" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="L" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="F" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="E" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:alpha="@dimen/alphaDisabled"
+            android:gravity="center"
+            android:text="U" />
+
+    </LinearLayout>
+
+</LinearLayout>

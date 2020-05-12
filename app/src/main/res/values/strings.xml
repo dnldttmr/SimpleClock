@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_wallpaper">Hintergrundbild automatisch setzen</string>
+    <string name="settings_wallpaper_description">Beim aktivieren dieser Einstellung wird automatisch der Systemhintergrund entsprechend der Uhrzeit angepasst. \nHinweis: Es muss eine Genehmigung dazu erteilt werden.</string>
+</resources>

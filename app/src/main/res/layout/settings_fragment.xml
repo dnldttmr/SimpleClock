@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="@dimen/alphaEnabled"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_24"
+            android:layout_marginTop="@dimen/padding_8"
+            android:layout_marginBottom="@dimen/padding_8"
+            android:text="@string/settings"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize_24" />
+
+        <LinearLayout
+            android:id="@+id/wallpaperContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_16"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_wallpaper"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textSize_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_wallpaper_description"
+                    android:textSize="@dimen/textSize_14" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/wallpaperCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_8" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/padding_8"
+            android:alpha="@dimen/alphaEnabled"
+            android:background="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+</ScrollView>
